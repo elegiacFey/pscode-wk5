@@ -1,0 +1,65 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+sum = num1 + num2
+
+// Exercise 2: Check if a Number is Even or Odd
+
+if num %2 = 0
+	print EVEN
+else
+	print ODD
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+Read(num1); Read(num2); Read(num3); Read(num4); Read(num5)
+
+AVG = (num1 + num2 + num3 + num4 + num5)/2
+
+//min
+
+MIN = num1
+bool num2 < MIN
+true num2 = MIN
+false no change
+
+bool num3 < MIN
+true num3 = MIN
+false no change
+
+bool num4 < MIN
+true num4 = MIN
+false no change
+
+bool num5 < MIN
+true num5 = MIN
+false no change
+
+//max
+
+MAX = num1
+bool num2 > MAX
+true num2 = MAX
+false no change
+
+bool num3 > MAX
+true num3 = MAX
+false no change
+
+bool num4 > MAX
+true num4 = MAX
+false no change
+
+bool num5 > MAX
+true num5 = MAX
+false no change
+
+print "The average of this number set is (AVG), the minimum is (MIN), and the maximum is (MAX)"
+
+-- END --
+
